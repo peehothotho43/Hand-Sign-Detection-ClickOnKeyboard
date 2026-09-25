@@ -18,3 +18,14 @@ This project was developed as part of a Master's degree coursework/thesis. It is
 1. Clone the repository:
    ```bash
    git clone [https://github.scom/your-username/Hand-Sign-Detection-ClickOnKeyboard.git](https://github.scom/your-username/Hand-Sign-Detection-ClickOnKeyboard.git)
+
+Install dependencies:
+   Bash
+   pip install -r requirements.txt
+
+Run the application:
+   Bash
+   python main.py
+
+📄 License
+This project is developed for academic purposes under the Master's degree program.
