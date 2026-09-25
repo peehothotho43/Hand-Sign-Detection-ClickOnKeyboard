@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+venv_old/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MacOS
+__MACOSX/
+
+# YOLO output
+runs/
