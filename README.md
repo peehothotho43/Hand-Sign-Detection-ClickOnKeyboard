@@ -1,31 +1,130 @@
-# Hand Sign Detection & Virtual Keyboard Clicker
+# 👋 Hand Sign Detection Click On Keyboard
 
-## 📌 Project Overview
-This project was developed as part of a Master's degree coursework/thesis. It is a computer vision application designed to detect specific hand signs and map them to virtual keyboard actions in real-time. By leveraging advanced machine learning and image processing techniques, the system enables touchless human-computer interaction (HCI).
+A real-time hand gesture recognition system powered by **YOLOv5** and **OpenCV** that allows users to control keyboard actions using hand signs.
 
-## 🚀 Key Features
-* **Real-Time Hand Tracking:** Accurately detects and tracks hand landmarks using high-performance computer vision pipelines.
-* **Sign Classification:** Recognizes custom hand gestures/signs to trigger corresponding keyboard inputs.
-* **Virtual Keyboard Integration:** Translates physical hand gestures into automated keystrokes or mouse events.
-* **Optimized Performance:** Built with Python and robust libraries to ensure low latency and smooth execution.
+https://img.shields.io/badge/Python-3.10-blue
+![YOLOv5](https://img.shields.io/badge/YOLOvodel-green
+![OpenCV](https://img.shieldsOpenCV-Computer_Vision-red
 
-## 🛠️ Tech Stack
-* **Language:** Python
-* **Libraries & Frameworks:** OpenCV, MediaPipe / YOLO (or relevant deep learning frameworks)
-* **Hardware:** Tested with standard webcams / Edge devices.
+---
 
-## 📦 Installation & Usage
-1. Clone the repository:
-   ```bash
-   git clone [https://github.scom/your-username/Hand-Sign-Detection-ClickOnKeyboard.git](https://github.scom/your-username/Hand-Sign-Detection-ClickOnKeyboard.git)
+## 📖 Project Overview
 
-Install dependencies:
-   Bash
-   pip install -r requirements.txt
+This project uses a custom-trained YOLOv5 model to detect hand signs via webcam and trigger keyboard interactions in real time.
 
-Run the application:
-   Bash
-   python main.py
+### ✨ Features
 
-📄 License
-This project is developed for academic purposes under the Master's degree program.
+- 🎥 Real-time webcam detection
+- 🤖 Custom YOLOv5 hand sign model
+- ⌨️ Keyboard control integration
+- ⚡ Fast and lightweight inference
+- 🖐️ Multiple gesture recognition
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- OpenCV
+- YOLOv5
+- PyTorch
+- NumPy
+
+---
+
+## 📂 Project Structure
+
+```text
+Hand-Sign-Detection-ClickOnKeyboard
+│
+├── src
+│   ├── hand_sign.py
+│   ├── train_yolo.py
+│   ├── get_photo.py
+│   ├── requirements.txt
+│   └── best.pt
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🚀 Installation
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/peehothotho43/Hand-Sign-Detection-ClickOnKeyboard.git
+```
+
+### 2️⃣ Enter Project Folder
+
+```bash
+cd Hand-Sign-Detection-ClickOnKeyboard
+```
+
+### 3️⃣ Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate:
+
+```bash
+venv\Scripts\activate
+```
+
+### 4️⃣ Install Dependencies
+
+```bash
+pip install -r src/requirements.txt
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+python src/hand_sign.py
+```
+
+---
+
+## 🧠 Model Information
+
+- Model: YOLOv5 Custom Training
+- Framework: PyTorch
+- Input: Webcam Feed
+- Output: Hand Gesture Detection
+
+---
+
+## 📸 Demo
+
+Add screenshots or GIFs here 👇
+
+![Demo/demo.gif
+
+---
+
+## 🎯 Future Improvements
+
+- [ ] More gesture classes
+- [ ] GUI interface
+- [ ] Better accuracy
+- [ ] Media control support
+- [ ] Volume and brightness control
+
+---
+
+## 👨‍💻 Author
+
+**It's me Perapat**
+
+🔗 GitHub: https://github.com/peehothotho43
+
+---
+
+⭐ If you find this project useful, please give it a star!
